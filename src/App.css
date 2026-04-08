@@ -583,8 +583,23 @@
 }
 
 .listing-card__cta {
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
+  gap: 10px;
   font-weight: 700;
+  line-height: 1;
+}
+
+.listing-card__cta span {
+  display: block;
+  line-height: 1;
+}
+
+.listing-card__cta svg {
+  display: block;
+  flex: 0 0 auto;
+  transform: translateY(1px);
 }
 
 .empty-state {
