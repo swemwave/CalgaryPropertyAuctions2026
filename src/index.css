@@ -1,0 +1,43 @@
+:root {
+  color: #203127;
+  background:
+    radial-gradient(circle at top left, rgba(29, 161, 110, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(229, 77, 66, 0.1), transparent 22%),
+    linear-gradient(180deg, #f7faf8 0%, #edf3ef 100%);
+  font-family: 'Manrope', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
